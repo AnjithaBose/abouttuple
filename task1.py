@@ -1,0 +1,12 @@
+tuple1=("anjitha",5,123,"true","mca",14.6)
+print(tuple1)
+x=list(tuple1)
+x.append("pg")
+x[2]="chmm"
+x.remove(5)
+x.pop(1)
+tuple1=tuple(x)
+print(tuple1)
+tuple2=("we","are","perfect")
+tuple1+=tuple2
+print(tuple1)
